@@ -1,20 +1,17 @@
 import productCatalog from "./data/products";
 import { Header } from "./components/Header.tsx";
 import { Footer } from "./components/Footer.tsx";
+import { ProductGrid } from "./components/ProductGrid.tsx";
 
 function App() {
   return (
     <>
       <Header />
 
-      <section id="catalog-grid">
-        <h1>This is the Catalog</h1>
-      </section>
+      <ProductGrid products={productCatalog} />
 
       <Footer />
     </>
-
-    
   );
 }
 
