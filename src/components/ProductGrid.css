@@ -43,3 +43,21 @@
   margin-top: 10px;
   font-size: 0.8rem;
 }
+
+@media (min-width : 800px) {
+  .product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  gap: 15px;
+}
+}
+
+@media (min-width : 1200px) {
+  .product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 15px;
+}
+}
