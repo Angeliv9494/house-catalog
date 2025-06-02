@@ -13,10 +13,12 @@ export const productCatalog: Product[] = [
     id: 1,
     name: "Lenovo Legion Go",
     price: 12000,
-    description: "Consola portátil 7, procesador AMD Ryzen Z1 Extreme, 16GB RAM y 512GB SSD. Incluye controles desmontables y sistema operativo Windows 11.",
+    description:
+      "Consola portátil 7, procesador AMD Ryzen Z1 Extreme, 16GB RAM y 512GB SSD. Incluye controles desmontables y sistema operativo Windows 11.",
     category: ["electronicos"],
     quantity: 1,
-    image: "https://p1-ofp.static.pub//fes/cms/2023/09/22/11w0z2gahwagl3lb9ftao79p52qw0o460975.png",
+    image:
+      "https://p1-ofp.static.pub//fes/cms/2023/09/22/11w0z2gahwagl3lb9ftao79p52qw0o460975.png",
   },
   {
     id: 2,
@@ -78,10 +80,60 @@ export const productCatalog: Product[] = [
     id: 8,
     name: "Impresora 3D Creality Ender 3 V2 Neo + Filamentos",
     price: 4000,
-    description: "Impresora 3D Creality Ender 3, ideal para proyectos. Incluye filamentos.",
+    description:
+      "Impresora 3D Creality Ender 3, ideal para proyectos. Incluye filamentos.",
     category: ["electronicos"],
     quantity: 1,
     image: "https://m.media-amazon.com/images/I/61NEKs5QsmL._AC_SX679_.jpg",
+  },
+  {
+    id: 9,
+    name: "Refrigerador Mabe 11 pies",
+    price: 7500,
+    description:
+      "Refrigerador Mabe de 11 pies, eficiente y espacioso. Con dispensador de agua y hielos.",
+    category: ["electronicos"],
+    quantity: 1,
+    image: "https://m.media-amazon.com/images/I/41MkMrcA8ML._AC_SX342_.jpg",
+  },
+  {
+    id: 10,
+    name: "Comedor con 5 Sillas de Madera",
+    price: 4000,
+    description:
+      "Mesa de comedor con 6 sillas, ideal para familias. Base de metal y paneles de vidrio templado.",
+    category: ["muebles"],
+    quantity: 1,
+    image: "/products/dining-table.png",
+  },
+  {
+    id: 11,
+    name: "Horno Microondas Whirlpool",
+    price: 1000,
+    description:
+      "Horno microondas Whirlpool de 20 litros, con 700W de potencia y 6 niveles de cocción. Ideal para calentar y cocinar alimentos rápidamente.",
+    category: ["electronicos"],
+    quantity: 1,
+    image: "https://tupapeleriaymas.com.mx/6685-large_default/horno-de-microondas-whirlpool-wm-1507q-de-07-pies-10-niveles-color-negro.jpg",
+  },
+  {
+    id: 12,
+    name: "Base de Madera (Matrimonial)",
+    price: 1000,
+    description: "Base de cama matrimonial de madera, resistente y elegante.",
+    category: ["muebles"],
+    quantity: 3,
+    image: "https://www.muebleriasjuarez.mx/wp-content/uploads/2024/01/1000-CAOBA.png",
+  },
+  {
+    id: 13,
+    name: "Lavadora",
+    price: 5000,
+    description:
+      "Lavadora de carga vertical, eficiente y silenciosa. Capacidad de 8 kg.",
+    category: ["electronicos"],
+    quantity: 1,
+    image: "https://res.cloudinary.com/walmart-labs/image/upload/mg/gm/3pp/asr/2e31bb8a-7af3-4e34-99ef-d1e672424614.cbb9a996478b85e89d0252678c0af36b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
   },
 ];
 

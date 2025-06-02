@@ -34,6 +34,7 @@
   font-size: 1.4rem;
   text-align: center;
   margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .product-description {
@@ -65,6 +66,7 @@
 @media (min-width: 1200px) {
   .product-grid {
     display: grid;
+    max-width: 1500px;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     gap: 15px;
