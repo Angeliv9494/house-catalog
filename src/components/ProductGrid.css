@@ -6,6 +6,7 @@
 }
 
 .product-card {
+  position: relative;
   border-radius: 5px;
   padding: 20px;
   display: flex;
@@ -19,6 +20,14 @@
   width: 300px;
   height: 300px;
   object-fit: contain;
+}
+
+.sold-image {
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  position: absolute;
+  top: 50px;
 }
 
 .product-name {
@@ -44,20 +53,20 @@
   font-size: 0.8rem;
 }
 
-@media (min-width : 800px) {
+@media (min-width: 800px) {
   .product-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 10px;
-  gap: 15px;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 15px;
+  }
 }
 
-@media (min-width : 1200px) {
+@media (min-width: 1200px) {
   .product-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 10px;
-  gap: 15px;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    gap: 15px;
+  }
 }
