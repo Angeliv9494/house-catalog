@@ -13,8 +13,9 @@ export const ProductGrid = (props: ProductGridProps) => {
       <div className="product-card" key={product.id}>
         <img src={product.image} alt={product.name} className="product-image" />
         <h1 className="product-name">{product.name}</h1>
-        <p className="product-price">${product.price.toFixed(2)}</p>
-        <p className="product-stock">{product.quantity}</p>
+        <h2 className="product-description">{product.description}</h2>
+        <p className="product-price">{product.price.toLocaleString('en-US',{style: 'currency' , currency : 'MXN'})}</p>
+        <p className="product-stock"><strong>Disponibles:</strong> {product.quantity}</p>
 
       </div>
     );

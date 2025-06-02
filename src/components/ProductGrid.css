@@ -2,18 +2,44 @@
   display: grid;
   grid-template-columns: 1fr;
   padding: 10px;
+  row-gap: 15px;
 }
 
 .product-card {
+  border-radius: 5px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.25);
 }
 
 .product-image {
-  border: 1px solid red;
   width: 300px;
   height: 300px;
   object-fit: contain;
+}
+
+.product-name {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.product-description {
+  font-size: 0.8rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.product-price {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.product-stock {
+  margin-top: 10px;
+  font-size: 0.8rem;
 }
