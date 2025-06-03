@@ -37,15 +37,13 @@
 }
 
 .carousel-item {
-  background-color: none;
+  display: inline-block;
+  align-items: center;
   height: 400px;
 }
 
 .carousel-image {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  background-color: red;
+  width: 50%;
 }
 
 .slick-slider {
