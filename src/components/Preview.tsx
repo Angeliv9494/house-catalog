@@ -13,6 +13,8 @@ export const Preview = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    adaptiveHeight: true,
+    className: "carousel",
   };
 
   return (
@@ -20,7 +22,7 @@ export const Preview = () => {
       <div className="filter-background"></div>
 
       <div className={modalClasses}>
-        <div className="slider-wrapper">
+
           <Slider {...settings}>
             <div className="carousel-item">
               <p className="carousel-image">1</p>
@@ -31,7 +33,7 @@ export const Preview = () => {
             </div>
           </Slider>
         </div>
-      </div>
+
     </>
   );
 };

@@ -10,6 +10,9 @@
 }
 
 .modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   border-radius: 10px;
   position: fixed;
@@ -21,7 +24,8 @@
 }
 
 .carousel-item {
-  height: 300px;
+  background-color: none;
+  height: 400px;
 }
 
 .carousel-image {
@@ -29,6 +33,8 @@
   justify-content: center;
   align-content: center;
   background-color: red;
-  padding: 100px;
 }
 
+.slick-slider {
+  width: 100%;
+}
