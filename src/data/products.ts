@@ -78,10 +78,10 @@ export const productCatalog: Product[] = [
   },
   {
     id: 8,
-    name: "Impresora 3D Creality Ender 3 V2 Neo + Filamentos",
+    name: "Impresora 3D Creality Ender 3 V2 Neo",
     price: 4000,
     description:
-      "Impresora 3D Creality Ender 3, ideal para proyectos. Incluye filamentos.",
+      "Impresora 3D Creality Ender 3, ideal para proyectos. Incluye filamentos PETG.",
     category: ["electronicos"],
     quantity: 1,
     image: "https://m.media-amazon.com/images/I/61NEKs5QsmL._AC_SX679_.jpg",
@@ -114,7 +114,8 @@ export const productCatalog: Product[] = [
       "Horno microondas Whirlpool de 20 litros, con 700W de potencia y 6 niveles de cocción. Ideal para calentar y cocinar alimentos rápidamente.",
     category: ["electronicos"],
     quantity: 1,
-    image: "https://tupapeleriaymas.com.mx/6685-large_default/horno-de-microondas-whirlpool-wm-1507q-de-07-pies-10-niveles-color-negro.jpg",
+    image:
+      "https://tupapeleriaymas.com.mx/6685-large_default/horno-de-microondas-whirlpool-wm-1507q-de-07-pies-10-niveles-color-negro.jpg",
   },
   {
     id: 12,
@@ -123,7 +124,8 @@ export const productCatalog: Product[] = [
     description: "Base de cama matrimonial de madera, resistente y elegante.",
     category: ["muebles"],
     quantity: 3,
-    image: "https://www.muebleriasjuarez.mx/wp-content/uploads/2024/01/1000-CAOBA.png",
+    image:
+      "https://www.muebleriasjuarez.mx/wp-content/uploads/2024/01/1000-CAOBA.png",
   },
   {
     id: 13,
@@ -133,7 +135,17 @@ export const productCatalog: Product[] = [
       "Lavadora de carga vertical, eficiente y silenciosa. Capacidad de 8 kg.",
     category: ["electronicos"],
     quantity: 1,
-    image: "https://res.cloudinary.com/walmart-labs/image/upload/mg/gm/3pp/asr/2e31bb8a-7af3-4e34-99ef-d1e672424614.cbb9a996478b85e89d0252678c0af36b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    image:
+      "https://res.cloudinary.com/walmart-labs/image/upload/mg/gm/3pp/asr/2e31bb8a-7af3-4e34-99ef-d1e672424614.cbb9a996478b85e89d0252678c0af36b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+  },
+  {
+    id: 14,
+    name: "Nintendo Switch Standard Gris",
+    price: 4500,
+    description: "Nintendo Switch version standard, incluye juegos",
+    category: ["electronicos"],
+    quantity: 1,
+    image: "https://m.media-amazon.com/images/I/51ArI2GwRoL._AC_SX679_.jpg",
   },
 ];
 
