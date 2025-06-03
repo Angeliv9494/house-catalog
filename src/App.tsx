@@ -5,15 +5,15 @@ import { ProductGrid } from "./components/ProductGrid.tsx";
 import { Preview } from "./components/Preview.tsx";
 
 function App() {
-  const test = true;
+  const testModal = true;
 
   return (
     <>
       <Header />
 
-      <ProductGrid products={productCatalog} />
+      {!testModal && <ProductGrid products={productCatalog} />}
 
-      {test && <Preview />}
+      {testModal && <Preview productId={1}/>}
 
       <Footer />
     </>
