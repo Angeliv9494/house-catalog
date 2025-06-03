@@ -19,3 +19,16 @@
   right: 30px;
   z-index: 200;
 }
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: red;
+  padding: 100px;
+}
+
