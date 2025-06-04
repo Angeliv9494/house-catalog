@@ -104,7 +104,7 @@ export const productCatalog: Product[] = [
       "Mesa de comedor con 6 sillas, ideal para familias. Base de metal y paneles de vidrio templado.",
     category: ["muebles"],
     quantity: 1,
-    image: "/products/dining-table.png",
+    image: "./home-catalog/products/dining-table.png",
   },
   {
     id: 11,
