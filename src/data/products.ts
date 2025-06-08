@@ -113,7 +113,7 @@ export const productCatalog: Product[] = [
     description:
       "Horno microondas Whirlpool de 20 litros, con 700W de potencia y 6 niveles de cocción. Ideal para calentar y cocinar alimentos rápidamente.",
     category: ["electronicos"],
-    quantity: 1,
+    quantity: 0,
     image:
       "https://tupapeleriaymas.com.mx/6685-large_default/horno-de-microondas-whirlpool-wm-1507q-de-07-pies-10-niveles-color-negro.jpg",
   },
@@ -129,7 +129,7 @@ export const productCatalog: Product[] = [
   },
   {
     id: 13,
-    name: "Lavadora",
+    name: "Lavadora Whirpool",
     price: 5000,
     description:
       "Lavadora de carga vertical, eficiente y silenciosa. Capacidad de 8 kg.",
@@ -141,7 +141,7 @@ export const productCatalog: Product[] = [
   {
     id: 14,
     name: "Nintendo Switch Standard Gris",
-    price: 4500,
+    price: 4000,
     description: "Nintendo Switch version standard, incluye juegos",
     category: ["electronicos"],
     quantity: 1,
